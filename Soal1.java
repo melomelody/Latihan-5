@@ -15,12 +15,9 @@ public class Soal1 {
         values.put("009","Hariaty");
         values.put("010","Karina Virgi");
 
-        values.forEach((key, value) -> { 
+         
             System.out.println(
                 String.format(
-                "Nama Saya %s, nipnya %s ",
-                value, key)
-            );
-        });
+                "Nama Saya %s, nipnya 010 ",values.get("010")));
+        }
     }
-}
